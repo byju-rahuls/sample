@@ -18,6 +18,8 @@ function openPopup() {
   
   // Attach the close button click event listener
   var closeButton = document.getElementById("close-btn");
+  var closeButton1 = document.getElementById("close-btn1");
   closeButton.addEventListener("click", closePopup);
+  closeButton1.addEventListener("click", closePopup);
 
   
